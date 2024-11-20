@@ -1,0 +1,22 @@
+package practice;
+
+public class M17 {
+	private static void test() {
+		System.out.println(2);
+	}
+	 class B{
+		static int i;
+		{
+			i = 10;
+		}
+		static void test() {
+			
+			System.out.println(i);
+			M17.test();
+		}
+	}
+	public static void main(String[] args) {
+		
+		B.test();
+	}
+}

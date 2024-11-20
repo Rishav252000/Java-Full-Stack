@@ -1,0 +1,9 @@
+package lamdaExp;
+interface A {
+	void test(int i, int j);
+}
+public class M1 {
+	public static void main(String[] args) {
+		A a1 = 
+	}
+}

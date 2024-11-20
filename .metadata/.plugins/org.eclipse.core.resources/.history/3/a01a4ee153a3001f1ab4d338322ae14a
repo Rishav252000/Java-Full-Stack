@@ -1,0 +1,13 @@
+package lamdaExp;
+interface A {
+	void test(int i, int j);
+}
+public class M1 {
+	public static void main(String[] args) {
+		A a1 = (i, j) -> {
+			System.out.println(i+j);
+		};
+		
+		a1.test(123, 233);
+	}
+}

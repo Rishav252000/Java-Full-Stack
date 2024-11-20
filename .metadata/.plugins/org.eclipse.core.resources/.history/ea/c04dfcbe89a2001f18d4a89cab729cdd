@@ -1,0 +1,17 @@
+package practice;
+class A{
+	public void m1() {
+		System.out.println("salty");
+	}
+}
+public class M5 {
+	public static void main(String[] args) {
+		A a1 = new A() {
+			public void m1() 
+			{
+				System.out.println("Spicy");
+			}
+		};
+		a1.m1();
+	}
+}

@@ -1,0 +1,16 @@
+package skelatonOfCollection;
+
+class ArrayList<E>{
+	public void add(E obj) {
+		
+	}
+	public E get(int i) {
+		return i;
+	}
+}
+
+public class M1 {
+	public static void main(String[] args) {
+		
+	}
+}

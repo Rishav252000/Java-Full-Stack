@@ -1,0 +1,18 @@
+package practice;
+class A{
+	public void m1() {
+		class Inner{
+			public void sum(int x, int y) {
+				System.out.println("The sum is:" + (x+y));
+			}
+			
+		}
+		Inner i = new Inner();
+		i.sum(100, 200);
+	}
+}
+public class M3 {
+	public static void main(String[] args) {
+		
+	}
+}

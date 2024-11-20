@@ -1,0 +1,17 @@
+package Runnable;
+
+public class M1 {
+	public static void main(String[] args) {
+		Runnable r = () -> {
+			for(int i = 1; i<=108; i++) {
+				System.out.println("!!Ram Siya Ram!!");
+			}
+		};
+		
+		new Thread(r).start();
+		
+		for(int i = 1; i<=108; i++) {
+			System.out.println("!! Radhe Radhe !!");
+		}
+	}
+}

@@ -1,0 +1,10 @@
+interface F
+{
+	{
+		
+	}
+	
+	static
+	{
+	}
+}

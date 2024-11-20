@@ -1,0 +1,11 @@
+package app63;
+
+public class MainRunner {
+	
+	public static void main(String[] args) {
+		M14 m = new M14();
+		m.setI(6);
+		System.out.println(m.getI());
+	}
+
+}

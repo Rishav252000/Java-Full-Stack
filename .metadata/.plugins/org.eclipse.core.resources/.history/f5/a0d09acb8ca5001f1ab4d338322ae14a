@@ -1,0 +1,14 @@
+package ThreadClass;
+public class M1 extends Thread{
+	@Override
+	public void run() {
+		
+		System.out.println("aaaaa");
+		
+		
+	}
+	public static void main(String[] args) {
+		new M1().run();
+		System.out.println(2);
+	}
+}

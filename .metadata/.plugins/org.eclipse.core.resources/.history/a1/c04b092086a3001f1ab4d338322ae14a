@@ -1,0 +1,20 @@
+package Genric;
+
+public class Box<T> {
+	T i;
+	T j;
+	Box(T i, T j)
+	{
+		this.i = i;
+		this.j = j;
+	}
+	public T test()
+	{
+		System.out.println();
+		return i;
+	}
+	public static void main(String[] args) {
+		Box<Integer> b = new Box<>(10, 20);
+		System.out.println(b.test());
+	}
+}

@@ -1,0 +1,20 @@
+package ThreadClass;
+public class M1 extends Thread{
+	@Override
+	public void run() {
+		
+		System.out.println("aaaaa");
+		
+		this.start();
+		
+	}
+	public static void main(String[] args) {
+		M1 m = new M1();
+		Thread t1 = new Thread(m);
+		m.run();
+		
+		for(int i = 1; i <= 100; i++) {
+			System.out.println("!!Hay!");
+		}
+	}
+}

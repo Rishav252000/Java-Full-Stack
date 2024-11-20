@@ -1,0 +1,12 @@
+package app67CollectionApiVector;
+
+import java.util.Vector;
+
+public class M2 {
+	public static <E> void main(String[] args) {
+		Vector<Integer> v1 = new Vector<>();
+		v1.add(123);
+		System.out.println(v1);
+		
+	}
+}

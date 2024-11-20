@@ -1,0 +1,31 @@
+package removeIf;
+
+class A
+{
+}
+class B extends A
+{
+	
+}
+class C extends B
+{
+	
+}
+class D extends C
+{
+	
+}
+class E < T >
+{
+	T t1;
+}
+class M3 
+{
+	public static void main(String[] args) 
+	{
+		E<? super C> obj1 = new E<B>();
+		obj1.t1 = new B();
+		System.out.println(obj1.t1 instanceof B);
+		
+	}
+}

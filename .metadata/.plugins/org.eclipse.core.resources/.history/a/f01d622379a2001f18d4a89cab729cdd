@@ -1,0 +1,22 @@
+package app55;
+class Test{
+	class A{
+		
+	}
+	static class B{
+		
+	}
+}
+public class M17 {
+	public static void main(String[] args) {
+		Test.A a1 = null;
+		Test.B b1 = null;
+		
+		a1 = new Test().new A();
+		Test a2 = new Test();
+		 a1 =  a2.new A();
+		 
+		 
+		b1 = new Test.B();
+	}
+}

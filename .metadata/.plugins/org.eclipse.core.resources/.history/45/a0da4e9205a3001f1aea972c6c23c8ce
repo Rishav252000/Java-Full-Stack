@@ -1,0 +1,15 @@
+package practice;
+
+public class M12 {
+	static int i = 10;
+	class A{
+		void test() {
+			System.out.println(M12.i);
+		}
+	}
+	public static void main(String[] args) {
+		M12 m = new M12();
+		M12.A a1 = m.new A();
+		a1.test();
+	}
+}

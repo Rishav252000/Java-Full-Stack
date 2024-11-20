@@ -1,0 +1,23 @@
+package app65;
+
+public class M9 {
+	static class A extends Thread{
+		public void run() {
+			for(int i = 1; i <= 10000; i++) {
+				i++;
+				i--;
+			}
+			System.out.println("child done");
+		}
+	}
+	public static void main(String[] args) {
+		System.out.println("main begin");
+		A a1 = new A();
+		try {
+			a1.join();
+		}catch(InterruptedException ex) {
+			ex.printStackTrace();
+		}
+		System.out.println("main end");
+	}
+}
