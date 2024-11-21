@@ -66,6 +66,9 @@ App64	:	MultiThreading (Runnable Interface)
 App65	:	Thread default properties
 App66	:	Sychronization
 App67	:	Collection Api()
+App68	:	collection API 	- 	Queue and stack
+App69	:	Collection API	-	set
+App70	:	Collection API	-	Map
 
 
 

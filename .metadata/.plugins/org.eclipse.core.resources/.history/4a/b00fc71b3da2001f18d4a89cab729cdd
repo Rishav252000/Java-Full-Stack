@@ -1,7 +1,0 @@
-package pack1;
-import practice.M1.M2;
-public class M2 {
-	public static void main(String[] args) {
-		M1 m = new M1();
-	}
-}
